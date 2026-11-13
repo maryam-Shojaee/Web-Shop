@@ -3,3 +3,7 @@ class Product:
         self.sku = sku
         self.name = name
         self.price = price
+
+
+def apply_discount(price, percent):
+    return price * (100 - percent) / 100
